@@ -33,9 +33,33 @@ namespace HomeWork3
 
             //Saņemt derīgus parametrus no objekta Phone
             Console.WriteLine($"Phone Dimensions Are: {phone.Length},{phone.Breadth},{phone.Height}");
-        
+            //--------------------------------------------------------------------------------------;
+            
+
         }
     }
+    //-------------------------------------------------------;
+    public class Person
+    {
+        string FirstName = Console.WriteLine("Whats Your name?");
+        Firstname = Console.ReadLine();
+        string LastName = Console.WriteLine("Whats Your Last name?");
+        
+        string NamesTogether = FirstName + " " + Lastname;
 
-    
+        public int Age;
+        public bool IsMale;
+
+        public void Greeting()
+        {
+            Console.WriteLine("Hi! My name is " + FirstName);
+        }
+    }
+    class 
+
+
+
+
+
+
 }
